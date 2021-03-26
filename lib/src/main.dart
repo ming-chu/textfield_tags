@@ -179,6 +179,9 @@ class _TextFieldTagsState extends State<TextFieldTags> {
       },
       onChanged: (value) {
         var splitedTagsList = value.split(" ");
+        if(splitedTagsList.length < 2) {
+          return;
+        }
         var lastLastTag =
             splitedTagsList[splitedTagsList.length - 2].trim().toLowerCase();
 

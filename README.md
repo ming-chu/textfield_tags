@@ -13,7 +13,7 @@ and move on to enter another tag.
 
 ```yaml 
   dependencies:
-      textfield_tags: ^1.1.1
+      textfield_tags: ^1.1.2
 ```
 
 `$ flutter pub get`

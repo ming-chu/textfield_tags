@@ -1,3 +1,6 @@
+## [1.1.2] - 3/26/2021.
+* Fix index out of range exception
+
 ## [1.1.1] - 3/6/2021.
 * Update and change the InputDecorator widget properties of type InputBorder 
 * Add hashtags to show infront of the values entered inside textfield
